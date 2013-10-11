@@ -1,15 +1,18 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="latihanApp">
 <head>
   <meta charset="utf-8">
   <title>My HTML File</title>
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <script src="lib/angular/angular.js"></script>
+  <script src="js/controllers.js"></script>
 </head>
-<body>
+<body ng-controller="LatihanCtrl">
 
-  <p>Nothing here {{'yet' + '!'}}</p>
+<div>
+	{{judulApp}}
+</div>
 
 </body>
 </html>
